@@ -1,0 +1,17 @@
+rest:
+  enabled: true
+  endpoints:
+    - wrap: false
+      #url: https://appleisd.zendesk.opsmx.org/gate/oes/echo
+      url: https://apple-isd.srini-striks.opsmx.co/gate/oes/echo
+           
+retrofit:
+  log-level: FULL
+
+ssd:
+  name: preview-saas-ssd
+  enable: false
+spinnaker:
+  name: preview-saas       #Should be same as account name given in spinnaker setup 
+microsoftteams:
+  enabled: true
