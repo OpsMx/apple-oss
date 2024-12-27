@@ -1,0 +1,16 @@
+#If user need to set admin roles to the fiat
+#fiat:
+#  admin:
+#    roles:
+#      - 77xx939ops
+auth:
+  groupMembership:
+    service: ldap
+    ldap:
+      url: ldap://prodldap.opsmx.com:389
+      managerDn: cn=manager,dc=opsmx,dc=com
+      managerPassword: manager123
+      groupSearchBase: ou=groups,dc=opsmx,dc=com
+      groupSearchFilter: member={0}
+      groupRoleAttributes: cn
+      userDnPattern: uid={0},ou=users,dc=opsmx,dc=com
