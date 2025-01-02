@@ -45,9 +45,6 @@ deploymentConfigurations:
         trackDigests: false
         insecureRegistry: false
         repositories:
-        - library/alpine
-        - library/ubuntu
-        - library/centos
         - library/nginx
       primaryAccount: dockerhub
     google:
