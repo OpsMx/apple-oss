@@ -2,7 +2,6 @@ rest:
   enabled: true
   endpoints:
     - wrap: false
-      #url: https://appleisd.zendesk.opsmx.org/gate/oes/echo
       url: https://apple-isd.srini-striks.opsmx.co/gate/oes/echo
            
 retrofit:
